@@ -1,0 +1,6 @@
+package LinkedBinaryTree;
+
+public interface ExtendedBinaryTree {
+    public boolean compareTrees(BinaryTreeNode a, BinaryTreeNode b);
+    public void swapSubtrees(final BinaryTreeNode root);
+}
